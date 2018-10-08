@@ -4,13 +4,27 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Home
+      Home Page
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the
-    <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content>
+  <div>
+    <ion-slides pager>
+      <ion-slide>
+        <h2 class="carousel-title">Blue Peacock has a very beautiful feather</h2>
+        <img src="assets/imgs/carousel/cover2.jpg" alt="cover 1">
+      </ion-slide>
+      <ion-slide>
+        <h2 class="carousel-title">Blue Peacock has a very beautiful feather</h2>
+        <img src="assets/imgs/carousel/cover3.jpg" alt="cover 2">
+      </ion-slide>
+      <ion-slide>
+        <h2 class="carousel-title">Blue Peacock has a very beautiful feather</h2>
+        <img src="assets/imgs/carousel/cover4.jpg" alt="cover 3">
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <ion-range color="danger" pin="true"></ion-range>
 </ion-content>

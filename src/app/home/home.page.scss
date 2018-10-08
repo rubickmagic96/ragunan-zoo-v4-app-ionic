@@ -1,1 +1,24 @@
+/* my own class or id */
+.carousel-title {
+    margin-left: .7em;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-align: left;
+    bottom: 10px;
+}
 
+/* ionic class or id */
+ion-range {
+    --ion-color-base: red !important;
+}
+
+.range-knob-handle {
+    left: 0 !important;
+    top: 0 !important;
+    margin-left: 0 !important;
+    position: absolute !important;
+    width: 0 !important;
+    height:0 !important;
+    text-align: center !important;
+}
